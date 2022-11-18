@@ -15,14 +15,14 @@ function logWhisper(string) {
 }
 
 function sayHiToHeadphonedRoommate(string) {
-var cantAnswer = "I can't hear you!";
-var yesAnswer = "YES INDEED!";
-var lovAnswer = "I would love to!";
+let cantAnswer = "I can't hear you!";
+let yesAnswer = "YES INDEED!";
+let lovAnswer = "I would love to!";
 
-    if (string.toLowerCase === string) {
+    if (string.toLowerCase()=== string) {
         return cantAnswer;
     }
-    else if (string.toUpperCase === string) {
+    else if (string.toUpperCase() === string) {
         return yesAnswer;
     }
     else if ("Let's have dinner together!" === string) {
